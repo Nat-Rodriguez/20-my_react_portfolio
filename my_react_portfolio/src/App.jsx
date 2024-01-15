@@ -1,8 +1,9 @@
+import React from 'react'
 import './App.css';
-import Header from '../../';
-import AboutMe from './components/AboutMe';
-import ProjectDisplay from './components/ProjectDisplay';
-import Contacts from './components/Contacts';
+import Header from './components/Header/header';
+import AboutMe from './components/About/about';
+import ProjectDisplay from './components/Project/projects';
+import Contacts from './components/Contact/contactpage';
 
 
 function App() {
@@ -10,7 +11,7 @@ function App() {
     <div className="mainPage">
       <Header />
       <AboutMe />
-      <ProjectDisplay />
+      {/* <ProjectDisplay /> */}
       <Contacts />
     </div>
   );

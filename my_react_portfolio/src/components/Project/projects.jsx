@@ -1,4 +1,4 @@
-import Project from '../../assets';
+// import Project from '../../assets';
 import React from 'react';
 
 function Project({ proj }) {

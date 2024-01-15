@@ -1,9 +1,8 @@
-function Header(props) {
+function Header() {
 
   return (
     <header className="flex-row space-between px-1">
-      <h1>Natalie Rodriguez</h1>
-      {props.children}
+      <h1>🌟Natalie Rodriguez🌟</h1>
     </header>
   );
 }
