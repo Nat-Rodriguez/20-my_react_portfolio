@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import Project from "../Project";
+import Project from "../Project/projects";
 
 function Portfolio() {
 

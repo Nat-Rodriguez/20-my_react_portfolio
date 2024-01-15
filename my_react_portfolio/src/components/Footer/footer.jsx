@@ -1,6 +1,5 @@
 function Footer() {
 
-  // Replace links with social media profiles
   const icons = [
     {
       name: "Nat-Rodriguez GitHub",

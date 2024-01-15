@@ -1,9 +1,12 @@
+import React, { Component } from 'react';
+import Resume from '../Resume/pdf';
+
 function Resume() {
   return (
     <section className="my-5">
       <div className="my-2">
       <p>
-        Download my <a href= "./pdf/Resume.pdf">resume</a>
+        Download my <a href = {Pdf} target = "Resume.pdf">Resume!</a>
         </p>
         <h3>Front-end Proficiencies</h3>
         <ul className="skills">
