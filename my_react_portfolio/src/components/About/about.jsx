@@ -1,16 +1,16 @@
-function About() {
-  return (
-    <section className="my-5">
-      <div className="my-2">
-        <div className="profile-img my-5">
-        <i className="fas fa-user-circle" style={{ fontSize: "96px" }}></i>
-        </div>
-        <p>
-        My name is Natalie Rodriguez and I am a beginner Full-Stack Application Developer. I am currently enrolled in the Columbia University Engineering Bootcamp, and I'm enjoying it greatly, though I still have a lot to learn!
-        </p>
-      </div>
-    </section>
-  );
-}
+import Profile from '../assets/profile.jpg'
 
-export default About;
+function AboutMe() {
+    return (
+    <div className="container">
+        <h2 className="title"><a id="About-Me-Path">About Me</a></h2>
+        <article id="aboutmepage">
+          <figure className="div">
+            <img className="leftFigure" id="profile" src={Profile} alt="Profile Image" />
+          </figure>
+        </article>
+    </div>
+    );
+  }
+  
+  export default AboutMe;

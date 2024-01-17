@@ -3,13 +3,13 @@ import Resume from '../Resume/pdf';
 
 function Resume() {
   return (
-    <section className="my-5">
-      <div className="my-2">
+    <section className="myresume">
+      <div className="pdf">
       <p>
         Download my <a href = {Pdf} target = "Resume.pdf">Resume!</a>
         </p>
-        <h3>Front-end Proficiencies</h3>
-        <ul className="skills">
+        <h3>Front-End Skills</h3>
+        <ul className="skill-list">
           <li>HTML</li>
           <li>CSS</li>
           <li>JavaScript</li>
@@ -18,8 +18,8 @@ function Resume() {
           <li>React</li>
           <li>Bootstrap</li>
         </ul>
-        <h3>Back-end Proficiencies</h3>
-        <ul className="skills">
+        <h3>Back-End Skills</h3>
+        <ul className="skill-list">
           <li>APIs</li>
           <li>Node</li>
           <li>Express</li>
