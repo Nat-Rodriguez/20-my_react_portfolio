@@ -1,7 +1,7 @@
 function Header() {
 
   return (
-    <header className="flex-row space-between px-1">
+    <header className="header">
       <h1>🌟Natalie Rodriguez🌟</h1>
     </header>
   );
