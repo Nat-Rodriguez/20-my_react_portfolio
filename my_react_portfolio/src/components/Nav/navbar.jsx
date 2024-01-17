@@ -1,8 +1,8 @@
-import { Link } from 'react-router-dom';
+import { Link, useLocation } from 'react-router-dom';
 
-function Nav({ currentPage }) {
+function Nav() {
   const pages = ['portfolio', 'contact', 'resume'];
-
+  const currentPage = useLocation().pathname;
   return (
     <nav>
       <ul className="flex-row">
