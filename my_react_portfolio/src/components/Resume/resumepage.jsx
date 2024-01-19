@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Resume from '../Resume/pdf';
 
+
 function Resume() {
   return (
     <section className="myresume">

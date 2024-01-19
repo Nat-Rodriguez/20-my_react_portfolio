@@ -1,29 +1,16 @@
-import { Link, useLocation } from 'react-router-dom';
+import React from "react";
+import ReactDOM from "react-dom/client";
 import "../../app.css";
-
-function Nav() {
-  const pages = ['portfolio', 'contact', 'resume'];
-  const currentPage = useLocation().pathname;
-  return (
-    <nav>
-      <ul className="navbar">
-        <li
-          className={`mx-5 ${currentPage === '/' && 'navActive'}`}
-          key="about"
-        >
-          <Link to="/">About</Link>
-        </li>
-        {pages.map((Page) => (
-          <li
-            className={`mx-5 ${currentPage === `/${Page}` && 'navActive'}`}
-            key={Page}
-          >
-            <Link to={`/${Page}`}></Link>
-          </li>
-        ))}
-      </ul>
-    </nav>
+import App from "../../App";
+ 
+function Navbar () {
+  const navbar = ReactDOM.createNavbar(
+      document.getElementById("navbar")
   );
-}
-
-export default Nav;
+  navbar.render(
+      <React.StrictMode>
+          <App />
+      </React.StrictMode>
+  );
+};
+export default Navbar;

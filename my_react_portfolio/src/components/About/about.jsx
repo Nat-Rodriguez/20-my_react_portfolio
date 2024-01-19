@@ -1,5 +1,4 @@
 import Profile from '../../assets/profile.jpg';
-import "../../index.css"
 
 function AboutMe() {
     return (
